@@ -1,0 +1,119 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f6f9fc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main {
+  max-width: 500px;
+  margin: 48px auto 0 auto;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 2px 12px #4564a333;
+  padding: 36px;
+  text-align: center;
+}
+h1 {
+  /* color: #3761c8; */
+  color: #5382a1;
+  margin-bottom: 18px;
+  font-size: 2rem;
+  line-height: 0.3em;
+}
+.logo-wiggle {
+  animation: logo-wiggle 1.2s ease-in-out infinite;
+}
+@keyframes logo-wiggle {
+  0% { transform: rotate(0deg);}
+  12% { transform: rotate(-5deg);}
+  24% { transform: rotate(4deg);}
+  36% { transform: rotate(-4deg);}
+  48% { transform: rotate(3deg);}
+  60% { transform: rotate(-3deg);}
+  72% { transform: rotate(2deg);}
+  84% { transform: rotate(-1deg);}
+  100% { transform: rotate(0deg);}
+}
+#generateTest {
+  margin: 15px 0;
+  background: linear-gradient(90deg, #4682b4 70%, #6da9d6 100%);
+  /* background: linear-gradient(90deg, #3761c8 70%, #78c2ff 100%); */
+  color: #fff;
+  border: none;
+  border-radius: 18px 4px 18px 0;
+  padding: 12px 32px;
+  font-size: 1.18rem;
+  box-shadow: 0 2px 6px #0007;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#generateTest:hover {
+  background: linear-gradient(90deg, #4682b4 70%, #6da9d6 100%);
+
+  /* background: linear-gradient(90deg, #254181 70%, #78c2ff 100%); */
+}
+pre {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f3f7fb;
+  color: #24274b;
+  padding: 20px 18px;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px #c7d5ef22;
+  font-size: 1.08rem;
+  text-align: left;
+  overflow-x: auto;
+  min-height: 130px;
+  max-width: 100%;
+}
+.encouragement {
+  margin: 20px 0 8px 0;
+  padding: 12px 0 10px 0;
+  /* background: #eaf1fd; */
+  border-radius: 9px;
+  font-size: 1rem;
+  /* color: #3761c8; */
+  color: #2a5c86;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  /* box-shadow: 0 1.5px 6px #c7d5ef33; */
+}
+.creator {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: #2a5c86;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.01em;
+}
+#output a {
+  color: #3761c8;
+  text-decoration: underline;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: color 0.2s;
+}
+#output a:hover {
+  color: #254181;
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  main {
+    max-width: 95vw;
+    padding: 20px 5vw;
+  }
+  h1 {
+    font-size: 1.6rem;
+  }
+  pre {
+    font-size: 1rem;
+  }
+}
+
