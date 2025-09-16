@@ -1,6 +1,7 @@
 # Checkpoint Practice Randomizer
 
 A friendly tool to generate random checkpoint coding drills for students, especially useful for Java learning and exam practice!
+🔗 **[Try the app online!](https://mareerray.github.io/Checkpoint-Practice-Randomizer/)**
 
 ## Features
 
@@ -9,9 +10,11 @@ A friendly tool to generate random checkpoint coding drills for students, especi
 - 🔗 Each task links directly to its own instruction page
 - 🎉 Animated Java logo for encouragement and visual fun
 
+
 ## Live Demo
 
-Try it online with GitHub Pages, or [download & open `index.html`](#installation).
+[Checkpoint Practice Randomizer Web App](https://mareerray.github.io/Checkpoint-Practice-Randomizer/)
+
 
 ## How It Works
 
