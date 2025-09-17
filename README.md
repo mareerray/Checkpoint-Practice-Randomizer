@@ -46,6 +46,12 @@ A friendly tool to generate random checkpoint coding drills for students, especi
 - Creator: **Mayuree Reunsati**
 - Java Logo: Used under fair use for educational purposes
 
+## Resources
+
+- [Full List of Java Final Checkpoint Test Questions](http://193.164.155.218:2025/)  
+  _Credit: Thanks to Oleg for sharing this valuable link!_
+
+
 ## License
 
 This project is open source.
